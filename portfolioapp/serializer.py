@@ -3,5 +3,7 @@ from rest_framework import serializers
 from .models import PortfolioApp
 
 class PortfolioAppSerializer (serializers.ModelSerializer):
-    model=PortfolioApp
-    fields=['pk','title','img','url']
+    class Meta:
+
+        model=PortfolioApp
+        fields=['pk','title','type','img','url']

@@ -3,5 +3,6 @@ from .models import Work
 
 
 class WorkSerializer(serializers.ModelSerializer):
-    model=Work
-    fields=['pk','icon','title','desc','img']
+    class Meta:
+        model=Work
+        fields=['pk','icon','title','desc','img']
