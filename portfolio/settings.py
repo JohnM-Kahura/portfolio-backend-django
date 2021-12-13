@@ -38,11 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'intro.apps.IntroConfig',
-    'portfolioapp.apps.PortfolioappConfig',
-    'work.apps.WorkConfig',
-    'testimonials.apps.TestimonialsConfig',
-    'contact.apps.ContactConfig',
+    'intro',
+    'portfolioapp',
+    'work',
+    'testimonials',
+    'contact',
 ]
 
 MIDDLEWARE = [
