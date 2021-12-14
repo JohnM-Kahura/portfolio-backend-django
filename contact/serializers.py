@@ -5,4 +5,4 @@ from .models import Contact
 class ContactSerializer(serializers.ModelSerializer):
    class Meta:
         model=Contact
-        fields=['pk','message']
+        fields=['pk','name','email','message']
